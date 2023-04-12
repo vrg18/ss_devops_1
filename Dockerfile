@@ -1,4 +1,4 @@
-FROM tiangolo/uwsgi-nginx-flask:python3.10
+FROM tiangolo/uwsgi-nginx-flask:python3.11
 
 RUN git clone https://github.com/vrg18/flaskex /app/flaskex
 COPY ./uwsgi.ini /app/uwsgi.ini
